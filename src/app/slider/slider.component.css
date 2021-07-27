@@ -1,0 +1,31 @@
+.container {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 950px;
+  background-color: aliceblue;
+}
+
+.middle-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /*justify-content: space-around;*/
+  align-content: space-around;
+  width: 400px;
+}
+
+.left-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.selected {
+  background-color: bisque;
+}
